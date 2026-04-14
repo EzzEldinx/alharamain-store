@@ -5,7 +5,7 @@ import { useCartStore } from './store/cartStore';
 import { sendOrderToWhatsApp } from './utils/whatsappCheckout';
 
 // 1. اللينك بتاع الـ API
-const API_URL = "http://alharamain-api.rf.gd/api/products.php";
+const API_URL = "https://alharamain-api.rf.gd/api/products.php";
 // 2. بيانات المنتجات الأساسية (اللي إنت ضفتها يدوي)
 const dummyProducts = [
   { id: 101, name: "تعليقة حقيبة دبدوب كراش", category: "Bag Charms", price: 150, image: "/images/products/bagcharm1.jpeg", description: "ميدالية أنيقة للحقائب بتصميم دب عصري ومميز.", isSale: false, isNew: true },

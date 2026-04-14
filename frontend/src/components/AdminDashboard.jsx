@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // اللينك بتاع الـ API
-const API_URL = "http://alharamain-api.rf.gd/api/products.php";
+const API_URL = "https://alharamain-api.rf.gd/api/products.php";
 
 const mockOrders = [
   { id: "ORD-001", customer: "Ahmed Ali", date: "2026-04-07", total: 450, status: "Pending" },
