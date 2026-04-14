@@ -5,7 +5,7 @@ import { useCartStore } from './store/cartStore';
 import { sendOrderToWhatsApp } from './utils/whatsappCheckout';
 
 // 1. اللينك بتاع الـ API
-const API_URL = "https://alharamain-api.rf.gd/api/products.php";
+const API_URL = "/api/products.php";
 //coomenyyfsdfreg
 // 2. بيانات المنتجات الأساسية (اللي إنت ضفتها يدوي)
 const dummyProducts = [
